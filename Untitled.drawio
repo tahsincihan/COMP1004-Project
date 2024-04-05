@@ -1,0 +1,50 @@
+<mxfile host="app.diagrams.net" modified="2024-04-04T22:18:00.952Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="KdlI7eJE2S-uUuxLXvfC" version="24.0.1" type="device">
+  <diagram name="Page-1" id="Ie0qIOMD2gWjjUgOrU0F">
+    <mxGraphModel dx="954" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="109R5JzHJewTzYq5zSRQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="109R5JzHJewTzYq5zSRQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-1" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-2" value="As a student I want to be able to add tasks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-13" value="&amp;lt;&amp;lt;Included&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="109R5JzHJewTzYq5zSRQ-10" target="109R5JzHJewTzYq5zSRQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-10" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Input box to type in task&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-12" value="Add button to add tasks" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="109R5JzHJewTzYq5zSRQ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-15" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-16" value="As a student I want to see which tasks left to do" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-17" value="&amp;lt;&amp;lt;Included&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="109R5JzHJewTzYq5zSRQ-18" target="109R5JzHJewTzYq5zSRQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-18" value="tasks listed in a dashboard" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="109R5JzHJewTzYq5zSRQ-19" value="Add button to add tasks" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
