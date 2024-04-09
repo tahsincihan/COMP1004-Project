@@ -163,8 +163,6 @@
 
 /*88888888888888888888888888888888888888888888*/
 
-
-
 #title-icon{
     width: 70px; 
     height: 70px;  
@@ -217,9 +215,9 @@
 /*output container*/
 
 .output-list {
-    position: relative;
     width: 45%;
-    height: 750px;
+    height:auto;
+    max-height: 1500px;
     max-width: 560px;
     background: #fff;
     margin-top: 50px;
@@ -295,9 +293,7 @@
 }
 
 .progress-container{
-    position: absolute;
     bottom: 30px;
-    
 }
 .progress {
     background-color: #cccecf;
