@@ -5,6 +5,7 @@ This is a Single page website to help users efficiently track and manage their t
 ## Features
 - **Progress Tracking:** Visialise your task completion with a dynamic progress bar that updates when you complete your tasks.
 - **Task Management:** Easily add, view and remove tasks with a simple user-friendly UI.
+- **Night Mode:** Toggle between Night and Light mode for ease of use regardless of the time of day.
 - **Inspirational Quotes:** Get inspired with quotes that refresh each time you visit or reload the application
 - **Local Storage:** Tasks are saved in your browser's local storage, so you never lose track of your progression
 
