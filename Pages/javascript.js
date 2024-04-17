@@ -136,6 +136,44 @@ const generateQuote = async () => {
     }
 }
 
+//get new quote button
+function getNewQuote() {
+    const quoteImage = document.getElementById('quote-image');
+    quoteImage.src = '/images/icons8-reset-after.png'; 
+
+    
+    generateQuote();
+
+    // Reset the image after a short delay
+    setTimeout(() => {
+        quoteImage.src = '/images/icons8-reset-100.png'; 
+    }, 200);
+}
+
+//night mode button
+function toggleNightMode() {
+    const body = document.body;
+    const nightModeImg = document.getElementById('night-mode-image');
+    const nightModeText = document.querySelector('#night-mode-container span'); 
+
+    // Toggle the night mode class on the body
+    body.classList.toggle('night-mode');
+    document.querySelector('.container').classList.toggle('night-mode');  
+    document.querySelectorAll('.check-list, .quote-container, .output-list')
+        .forEach(el => el.classList.toggle('night-mode'));  
+
+    if (body.classList.contains('night-mode')) {
+        nightModeImg.src = '/images/icons8-sun-100.png';  
+        nightModeText.textContent = 'Light Mode'; 
+    } else {
+        nightModeImg.src = '/images/icons8-night-100.png';  
+        nightModeText.textContent = 'Night Mode'; 
+    }
+}
+
+
+
+
 // copying quotes
 const copyQuote = () => {
     const copiedQuote = quoteBox.innerText;
