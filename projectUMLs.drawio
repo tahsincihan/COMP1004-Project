@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T22:00:14.238Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="AP9BEBm4HeOvMdp229XH" version="24.2.3" type="device" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-18T11:58:40.175Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="8Q7ACUWKcvoMSJLfybMj" version="24.2.3" type="device" pages="4">
   <diagram name="Use Case" id="Ie0qIOMD2gWjjUgOrU0F">
-    <mxGraphModel dx="2074" dy="1267" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="506" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -183,7 +183,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ha2VJfdBjxjAuOzQPxqa" name="Class Diagram">
-    <mxGraphModel dx="1659" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="763" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,7 +310,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wzRS-xrTG1b2l59-vwid" name="State Diagram">
-    <mxGraphModel dx="2074" dy="1267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="1267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -389,6 +389,131 @@
         </mxCell>
         <mxCell id="BsE1Qujto6qYRR7ktIgl-3" value="Dark Mode" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EVbhGY5n_6OzDc70dqo1" name="Activity Diagram">
+    <mxGraphModel dx="954" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-1" target="UNs-fO0nYPcJSLPCdOqB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gEg4cpRFhxk6XNCumY7G-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-1" target="gEg4cpRFhxk6XNCumY7G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-1" value="Loads Tasks Pro Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="UNs-fO0nYPcJSLPCdOqB-2" parent="1" target="UNs-fO0nYPcJSLPCdOqB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-4" target="UNs-fO0nYPcJSLPCdOqB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-4" value="Enter a task in input box" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-8" target="UNs-fO0nYPcJSLPCdOqB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-8" target="UNs-fO0nYPcJSLPCdOqB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-8" value="Is the Task Valid?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-10" target="UNs-fO0nYPcJSLPCdOqB-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-10" value="Add task to the list" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-12" target="UNs-fO0nYPcJSLPCdOqB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-12" value="Show error massage &quot;You must write something!&quot;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-14" target="UNs-fO0nYPcJSLPCdOqB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-14" value="Save the task to the local storage" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-16" target="UNs-fO0nYPcJSLPCdOqB-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="540" />
+              <mxPoint x="220" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-16" target="UNs-fO0nYPcJSLPCdOqB-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-16" value="Increment task count" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-19" target="UNs-fO0nYPcJSLPCdOqB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-19" target="UNs-fO0nYPcJSLPCdOqB-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="494" y="440" />
+              <mxPoint x="494" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-19" value="Is the task checked?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-21" target="UNs-fO0nYPcJSLPCdOqB-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-21" value="Update task Status" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-23" target="UNs-fO0nYPcJSLPCdOqB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-23" value="Update progression bar" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-28" target="UNs-fO0nYPcJSLPCdOqB-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-28" value="Update local storage" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-30" target="UNs-fO0nYPcJSLPCdOqB-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-30" value="Adds option to delete the task" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNs-fO0nYPcJSLPCdOqB-32" target="UNs-fO0nYPcJSLPCdOqB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-32" value="User deletes the task" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNs-fO0nYPcJSLPCdOqB-35" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="415" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gEg4cpRFhxk6XNCumY7G-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gEg4cpRFhxk6XNCumY7G-1" target="UNs-fO0nYPcJSLPCdOqB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gEg4cpRFhxk6XNCumY7G-1" value="Upload a JSON file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

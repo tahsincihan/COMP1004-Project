@@ -191,4 +191,72 @@ copyBtn.addEventListener("click", copyQuote);
 
 window.addEventListener("load", generateQuote);
 
+function downloadTasks() {
+    // Retrieve the stored data from localStorage
+    const storedData = localStorage.getItem('data');
+    if (!storedData) {
+        alert('No tasks to download!');
+        return;
+    }
+
+    // Parse the stored JSON data
+    const data = JSON.parse(storedData);
+    if (!data.tasks || data.tasks.length === 0) {
+        alert('No tasks to download!');
+        return;
+    }
+
+    // Extract only tasks and their checked status
+    const tasksForDownload = data.tasks.map(task => ({
+        task: task.task,   
+        checked: task.checked  
+    }));
+
+    // Convert the filtered data to JSON format and prepare for download
+    const blob = new Blob([JSON.stringify(tasksForDownload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'tasks.json'; 
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+
+document.getElementById('download-tasks-button').addEventListener('click', downloadTasks);
+
+function loadTasksFromJSON() {
+    const fileInput = document.getElementById('json-file-input');
+    const file = fileInput.files[0];
+    
+    if (file && file.type === "application/json") {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const tasks = JSON.parse(e.target.result);
+            tasks.forEach(task => {
+                const li = document.createElement('li');
+                li.textContent = task.task;
+                const span = document.createElement('span');
+                span.innerHTML = '\u00D7';
+                span.onclick = removeTask;
+                li.appendChild(span);
+                if (task.checked) {
+                    li.classList.add('checked');
+                }
+                listContainer.appendChild(li);
+                maxTaskValue += 10;
+                if (task.checked) {
+                    taskDoneValue += 10;
+                }
+            });
+            ChangeWidth();
+            saveData();
+        };
+        reader.readAsText(file);
+    } else {
+        alert('Please upload a valid JSON file.');
+    }
+}
 

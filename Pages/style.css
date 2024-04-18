@@ -17,7 +17,9 @@
     color: #fff;  
 }
 .container.night-mode .input-row,
-.container.night-mode #task-input-box {
+.container.night-mode #task-input-box,
+.container.night-mode #download-tasks-button,
+.container.night-mode #load-json-button {
     background: #243B55; 
     color: #ccc;
 }
@@ -294,6 +296,37 @@
     font-size: 18px;
     cursor: pointer;
     border-radius: 30px;
+    transition: background-color 0.3s ease; 
+}
+#add-goal-button:hover {
+    background-color: #5ca2c1;
+}
+
+/*json input*/
+#json-file-input {
+    flex: 1;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    color: #333;
+}
+
+#load-json-button {
+    padding: 8px 15px;
+    background: #7ebfdd;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+#load-json-button:hover {
+    background-color: #5ca2c1;
 }
 
 /*style for labels on the radio buttons*/
@@ -369,7 +402,25 @@
 #list-container li.checked::before {
     background-image: url(/images/icons8-done-100.png);  
 }
+/*json buttons styling*/
+#download-tasks-button {
+    padding: 8px 20px;
+    background: #7ebfdd; 
+    color: #fff; 
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 30px; 
+    transition: background-color 0.3s ease; 
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 285px;
+}
 
+#download-tasks-button:hover {
+    background-color: #5ca2c1;
+}
 
 /*style for Progress bar*/
 
@@ -386,7 +437,7 @@
 }
 
 .progress-container{
-    bottom: 30px;
+    margin-top: 200px;
 }
 .progress {
     background-color: #cccecf;
