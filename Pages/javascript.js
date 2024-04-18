@@ -139,14 +139,14 @@ const generateQuote = async () => {
 //get new quote button
 function getNewQuote() {
     const quoteImage = document.getElementById('quote-image');
-    quoteImage.src = '/images/icons8-reset-after.png'; 
+    quoteImage.src = '../images/icons8-reset-after.png'; 
 
     
     generateQuote();
 
     // Reset the image after a short delay
     setTimeout(() => {
-        quoteImage.src = '/images/icons8-reset-100.png'; 
+        quoteImage.src = '../images/icons8-reset-100.png'; 
     }, 200);
 }
 
@@ -163,10 +163,10 @@ function toggleNightMode() {
         .forEach(el => el.classList.toggle('night-mode'));  
 
     if (body.classList.contains('night-mode')) {
-        nightModeImg.src = '/images/icons8-sun-100.png';  
+        nightModeImg.src = '../images/icons8-sun-100.png';  
         nightModeText.textContent = 'Light Mode'; 
     } else {
-        nightModeImg.src = '/images/icons8-night-100.png';  
+        nightModeImg.src = '../images/icons8-night-100.png';  
         nightModeText.textContent = 'Night Mode'; 
     }
 }

@@ -222,7 +222,7 @@
     display: inline-block;
     width: 70px;
     height: 70px;
-    background-image: url('/images/icons8-quote-left-100.png');
+    background-image: url('../images/icons8-quote-left-100.png');
     background-size: contain;
     background-repeat: no-repeat;
     vertical-align: middle; 
@@ -234,7 +234,7 @@
     display: inline-block;
     width: 70px;
     height: 70px;
-    background-image: url('/images/icons8-quote-left-100.png'); 
+    background-image: url('../images/icons8-quote-left-100.png'); 
     background-size: contain;
     background-repeat: no-repeat;
     transform: scaleX(-1); /* Flip the image horizontally */
@@ -387,7 +387,7 @@
     height: 38px;
     width: 50px;
     border-radius: 10%;
-    background-image: url(/images/icons8-checkmark-100.png);
+    background-image: url(../images/icons8-checkmark-100.png);
     background-size: cover;
     background-position: center;
     top: 10px;
@@ -400,7 +400,7 @@
 }
 
 #list-container li.checked::before {
-    background-image: url(/images/icons8-done-100.png);  
+    background-image: url(../images/icons8-done-100.png);  
 }
 /*json buttons styling*/
 #download-tasks-button {
